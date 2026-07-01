@@ -1,0 +1,48 @@
+{
+  "name": "campusnavigator",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "npm run dev --prefix backend",
+    "dev:frontend": "vite --port 5173",
+    "dev:backend": "npm run dev --prefix backend",
+    "build": "vite build",
+    "start": "npm run start --prefix backend",
+    "preview": "vite preview",
+    "seed": "npm run seed --prefix backend",
+    "postinstall": "npm install --prefix backend"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^5.4.0",
+    "@types/leaflet": "^1.9.21",
+    "axios": "^1.16.1",
+    "chart.js": "^4.5.1",
+    "clsx": "2.1.1",
+    "framer-motion": "^12.40.0",
+    "leaflet": "^1.9.4",
+    "lucide-react": "^1.16.0",
+    "react": "19.2.6",
+    "react-chartjs-2": "^5.3.1",
+    "react-dom": "19.2.6",
+    "react-hook-form": "^7.76.1",
+    "react-leaflet": "^5.0.0",
+    "react-router-dom": "^7.15.1",
+    "sonner": "^2.0.7",
+    "tailwind-merge": "3.4.0",
+    "zod": "^4.4.3",
+    "zustand": "^5.0.13"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "4.1.17",
+    "@types/node": "22.19.17",
+    "@types/react": "19.2.7",
+    "@types/react-dom": "19.2.3",
+    "@vitejs/plugin-react": "5.1.1",
+    "concurrently": "^9.2.1",
+    "tailwindcss": "4.1.17",
+    "typescript": "5.9.3",
+    "vite": "^7.3.5",
+    "vite-plugin-singlefile": "2.3.0"
+  }
+}
